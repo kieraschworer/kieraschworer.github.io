@@ -25,7 +25,8 @@ body {
 	font-family: 'Times New Roman', Times, serif;
 }
 main {
-	background-color: #C5A98B
+    background-color: #C5A98B;
+    padding: 10px;
 }
 h1 {
 	font-family: 'Brush Script MT', cursive;

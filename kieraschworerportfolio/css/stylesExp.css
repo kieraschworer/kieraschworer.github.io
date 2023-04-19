@@ -1,0 +1,23 @@
+/*Kiera Schworer
+April 19, 2023*/
+/*  color:darkslategray ;
+  background-color:darkgrey;*/
+
+.projects {
+  width: 90%;
+  margin: 0 auto;
+}
+.projects.projectbox {
+ float: left;
+}
+.projects .button {
+  display: block;
+  width: 200px;
+  color:black;
+  background-color:white;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 10px;
+}

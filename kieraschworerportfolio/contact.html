@@ -7,32 +7,133 @@
       <meta name="author" content="Kiera Schworer" />
       <meta charset="UTF-8" />
       <meta name="description" content="Kiera Schworer software app designer Boise Idaho" />
+      <meta name="description" content="Contact Kiera Schworer">
+      <meta name="keywords" content="Contact">
       <meta name ="keywords" content="client-side server-side software developer programmer" />
       <meta name="viewport" content="width=device-width, initial-scare=1.0" />
-      <link rel="stylesheet" href="css/styles.css" />
+      <link rel="icon" href="images/KS_icon.png"/>
+      <link rel="stylesheet" href="css/styles.css"/>
+      <link rel="stylesheet" href="css/stylesContact.css"/>
     </head>
     <body>
+      <!--Header, Logo, Navigation-->
       <header>
-        <h1>Experience</h1>
+
+        <a href="index.html"><img class="logo" src="images/KS_Logo.png" alt="KS Logo"></a>
+        <h1 class="heading">Contact</h1>
         <nav>
-          <ul>
-            <li><a href=index.html>Home</a></li>
-            <li><a href=about.html>About</a></li>
-            <li><a href=experience.html>Experience</a></li>
-            <li><a href=contact.html>Contact</a></li>
-          </ul>
+          <table>
+              <thead>
+                <tr>
+                <td  class="navigationtable" id="indexbutton"><a href=index.html>Home</a></td>
+              <td  class="navigationtable" id="aboutbutton"><a href=about.html>About</a></td>
+              <td class="navigationtable" id="experiencebutton"><a href=experience.html>Experience</a></td>
+              <td  class="navigationtable" id="contactbutton"><a href=contact.html>Contact</a></td>
+                </tr>
+              </thead>
+          </table>
         </nav>
       </header>
+      <!--Main-->
+      <main>
 
-        <main>
-        <p>I will graduate <ins>fall of 2024</ins>. However, to discuss other employment options my contact information is email at k.e.schworer@gmail.com, or phone at (208) 111-1111.</p>
-        </main>
 
-        <footer>
-          <hr>
-          Find me on: <a target="_blank" href="https://www.linkedin.com/"
-          >LinkedIn</a> and <a target="_blank" href="https://github.com/"
-          >GitHub</a>
-        </footer>
-      </body>
+
+      <!--Form-->
+      <section id="form">
+        <!--My email address-->
+        <form action="mailto:kieraschworer@my.cwi.edu?subject=Personal%20Portfolio%20Mail" enctype="text/plain" method="POST" target="_blank">
+        <fieldset>
+
+        <!--First and Last Name-->
+        <legend>Questions or Comments? Please let me know!</legend>
+
+        <div>
+          <label for="first_name">*First Name:</label>
+          <br>
+          <input type="text" name="first_name" id="first_name" required/>
+        </div>
+        <div>
+          <label for="last_name">Last Name:</label>
+          <br>
+          <input type="text" name="last_name" id="last_name"/>
+        </div>
+
+        <!--Email and Phone Number-->
+        <div>
+          <label for="email">Email:</label>
+          <br>
+          <input type="email" name="email" id="email"/>
+        </div>
+
+        <div>
+          <label for="phone">Phone Number:</label>
+          <br>
+          <input type="tel" name="phone"
+          id="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}"/>
+        </div>
+
+
+        <fieldset>
+          <legend>What opportunities are available at your company?</legend>
+          <!-- Select Box, page 98 -->
+          <label for="type_of_position">Type of Position:</label>
+          <select name="type_of_position" id="type_of_position">
+          <option value="nadropdown">N/A</option>
+          <option value="part_time">Part Time</option>
+          <option value="full_time">Full Time</option>
+          <option value="contract">Contract</option>
+          <option value="temporary">Temporary</option>
+          <option value="on_call">On Call</option>
+          <option value="other">Other</option>
+          </select>
+
+          <!--Radio Buttons-->
+
+          <p>How did you find me?</p>
+          <input type="radio" name="find_me" id="linkedin" value="linkedin"/>
+          <label for="linkedin">LinkedIn</label>
+
+          <input type="radio" name="find_me" id="indeed" value="indeed"/>
+          <label for="indeed">Indeed</label>
+
+          <input type="radio" name="find_me" id="job_fair" value="job_fair"/>
+          <label for="job_fair">Job Fair</label>
+
+          <input type="radio" name="find_me" id="cwicp" value="cwicp" />
+          <label for="cwiswdvcp">CWI Corporate Partner</label>
+
+          <input type="radio" name="find_me" id="otherradio" value="otherradio"/>
+          <label for="otherradio">Other</label>
+
+          <input type="radio" name="find_me" id="naradio" value="naradio"/>
+          <label for="naradio">N/A</label>
+
+        <!--Message Area-->
+        <div>
+          <label for="message">*Message:</label>
+          <br>
+          <textarea name="message" rows="10" cols="80" required></textarea>              
+        </div>
+
+      </fieldset>
+
+      <!--Submit Button-->
+        <input type="submit" id="submit" value="Submit" class="button">
+
+     </form>
+  </section>
+
+  </main>
+      <!--Footer-->
+      <footer>
+
+          <a target="_blank" href="https://www.linkedin.com/"
+          ><img src="images/linkedinicon.png" alt="LinkedIn"></a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <a target="_blank" href="https://github.com/"
+          ><img src="images/githubicon.png" alt="GitHub"></a>
+
+      </footer>
+    </body>
   </html>

@@ -1,0 +1,76 @@
+/*Kiera Schworer
+April 19, 2023*/
+/*  color:darkslategray ;
+  background-color:darkgrey;*/
+
+.projects {
+  width: 90%;
+  margin: 0 auto;
+}
+.projects .projectbox {
+  float: left;
+  margin-right: 15px;
+ }
+
+ @media screen and (max-width: 781px){
+    .projects {
+      flex-wrap: wrap;
+    }
+    .projectbox:nth-child(odd) {
+      order: 1;
+    }
+    .projectbox:nth-child(even) {
+      flex-basis: 100%;
+    }
+ }
+ @media screen and (max-width: 470px) {
+  .projectbox {
+    flex-basis: 100%;
+  }
+ }
+
+.projects .button {
+  display: block;
+  width: 180px;
+  color:white;
+  background-color:black;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+#experiencebutton {
+  background-color:white;
+}
+#experiencebutton a:hover{
+  color:#3A5795;
+}
+/*Pseudo Class Visited*/
+.projectbox a:visited {
+  color: #3A5795;
+}
+/*Pseudo Class Active*/
+.projectbox a:active {
+  color:#3A5795;
+}
+#programmingexperience {
+  width: 100%;
+  background-color:white;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: black; 
+  border-style: solid;
+  color: #000000;
+  margin-bottom: 20px;
+}
+#programmingexperience td, th {
+  border-width: 2px;
+  border-color: black;
+  border-style: solid;
+  padding: 15px;
+}
+#programmingexperience th {
+  background-color: #3A5795;
+}

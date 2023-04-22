@@ -1,0 +1,46 @@
+#contactbutton {
+  background-color: white;
+}
+#contactbutton a:hover {
+  color:#3A5795;
+}
+#form {
+  margin-top: 10px;
+}
+div {
+  margin: 10px;
+}
+
+label {
+  margin-right: 15px;
+  width: 150px;
+  display: inline-block;
+}
+.button {
+  margin-top: 15px;
+  margin-left: 30px;
+  display: block;
+  width: 180px;
+  color:white;
+  background-color:black;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+/*Gradient*/
+.button:hover {
+  background: radial-gradient(white,#3A5795);
+  color:black;
+}
+input {
+  transition: all 0.5s ease;
+}
+input:focus {
+  font-size: 1.35rem;
+  padding: 10px;
+  border: 2px solid #3A5795;
+  outline: none;
+}

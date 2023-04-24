@@ -23,7 +23,7 @@ html {
 }
 header {
   background-color:#3A5795;
-  height: 130px;
+  padding-bottom: 25px;
   width: 100%;
 }
 main {

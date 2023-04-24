@@ -4,14 +4,13 @@ April 19, 2023*/
   background-color:darkgrey;*/
 
 .projects {
-  width: 90%;
-  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
 }
-.projects .projectbox {
-  float: left;
-  margin-right: 15px;
- }
 
+/*
  @media screen and (max-width: 781px){
     .projects {
       flex-wrap: wrap;
@@ -27,7 +26,7 @@ April 19, 2023*/
   .projectbox {
     flex-basis: 100%;
   }
- }
+ }*/
 
 .projects .button {
   display: block;
@@ -73,4 +72,7 @@ April 19, 2023*/
 }
 #programmingexperience th {
   background-color: #3A5795;
+}
+caption {
+  font-size:x-large;
 }

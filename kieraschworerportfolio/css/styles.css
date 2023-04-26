@@ -58,6 +58,7 @@ footer {
   font-family: 'swansea', 'roboto', sans-serif; /*Swansea Custom Font*/
 }
 .navigationtable {
+  width: 10vw;
   color:black;
   text-align: center;
   font-weight: bold;

@@ -48,7 +48,7 @@ April 19, 2023*/
 }
 /*Pseudo Class Visited*/
 .projectbox a:visited {
-  color: #3A5795;
+  color:gainsboro;
 }
 /*Pseudo Class Active*/
 .projectbox a:active {
@@ -64,6 +64,9 @@ April 19, 2023*/
   color: #000000;
   margin-bottom: 20px;
 }
+thead {
+  color: white;
+}
 #programmingexperience td, th {
   border-width: 2px;
   border-color: black;
@@ -75,4 +78,5 @@ April 19, 2023*/
 }
 caption {
   font-size:x-large;
+  padding-bottom: 10px;
 }

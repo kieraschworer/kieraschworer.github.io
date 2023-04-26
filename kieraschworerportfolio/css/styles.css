@@ -9,8 +9,8 @@ html {
   background-color: aliceblue;
 }
 header {
-  background-color:#3A5795;
-  padding-bottom: 25px;
+  background-color:#ceddf6;
+  padding-bottom: 10px;
   width: 100%;
 }
 main {
@@ -49,8 +49,8 @@ footer {
 .logo {
   padding: 15px;
   float:left;
-  height:100px;
-  width: 100px;
+  height:40px;
+  width: 40px;
 }
 .heading {
   padding-top: 10px;
@@ -63,4 +63,11 @@ footer {
   text-decoration: none;
   border-radius: 15px;
   padding: 10px;
+  font-family: 'swansea', 'roboto', sans-serif;
+}
+nav a {
+  padding: 5px;
+}
+nav {
+  padding-top: 15px;
 }

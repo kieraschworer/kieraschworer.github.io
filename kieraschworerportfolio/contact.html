@@ -79,7 +79,7 @@
           <!-- Select Box, page 98 -->
           <label for="type_of_position">Type of Position:</label>
           <select name="type_of_position" id="type_of_position">
-          <option value="nadropdown">N/A</option>
+          <option value="na_dropdown">N/A</option>
           <option value="part_time">Part Time</option>
           <option value="full_time">Full Time</option>
           <option value="contract">Contract</option>
@@ -89,7 +89,7 @@
           </select>
 
           <!--Radio Buttons-->
-
+          <section id="contactradiobuttons">
           <p>How did you find me?</p>
           <input type="radio" name="find_me" id="linkedin" value="linkedin"/>
           <label for="linkedin">LinkedIn</label>
@@ -101,19 +101,20 @@
           <label for="job_fair">Job Fair</label>
           <br>
           <input type="radio" name="find_me" id="cwicp" value="cwicp" />
-          <label for="cwiswdvcp">CWI Corporate Partner</label>
+          <label for="cwicp">CWI Corporate Partner</label>
 
-          <input type="radio" name="find_me" id="otherradio" value="otherradio"/>
-          <label for="otherradio">Other</label>
+          <input type="radio" name="find_me" id="other_radio" value="other_radio"/>
+          <label for="other_radio">Other</label>
 
-          <input type="radio" name="find_me" id="naradio" value="naradio"/>
-          <label for="naradio">N/A</label>
+          <input type="radio" name="find_me" id="na_radio" value="na_radio"/>
+          <label for="na_radio">N/A</label>
+        </section>
 
         <!--Message Area-->
         <div>
           <label for="message">*Message:</label>
           <br>
-          <textarea name="message" rows="10" cols="80" required></textarea>              
+          <textarea id="message" name="message" rows="10" required></textarea>              
         </div>
 
       </fieldset>

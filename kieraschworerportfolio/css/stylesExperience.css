@@ -1,7 +1,5 @@
 /*Kiera Schworer
 April 19, 2023*/
-/*  color:darkslategray ;
-  background-color:darkgrey;*/
 
 .projects {
   display: flex;
@@ -10,18 +8,9 @@ April 19, 2023*/
   align-items: flex-start;
 }
 
+
+
 /*
- @media screen and (max-width: 781px){
-    .projects {
-      flex-wrap: wrap;
-    }
-    .projectbox:nth-child(odd) {
-      order: 1;
-    }
-    .projectbox:nth-child(even) {
-      flex-basis: 100%;
-    }
- }
  @media screen and (max-width: 470px) {
   .projectbox {
     flex-basis: 100%;

@@ -7,8 +7,6 @@ font-style: normal;
 
 html {
   background-color: aliceblue;
-  flex-wrap: wrap;
-  flex-basis: 100%;
 }
 header {
   background-color:#ceddf6;

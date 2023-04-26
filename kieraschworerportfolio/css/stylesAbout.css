@@ -12,5 +12,6 @@
 #workspace {
   margin: auto;
   display: block;
-  size: 50vw;
+  text-align: center;
+  width: 50vw;
 }

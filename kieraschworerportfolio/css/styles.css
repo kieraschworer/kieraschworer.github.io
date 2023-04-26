@@ -12,6 +12,7 @@ header {
   background-color:#ceddf6;
   padding-bottom: 10px;
   width: 100%;
+  overflow: auto;
 }
 main {
   width: 100%;

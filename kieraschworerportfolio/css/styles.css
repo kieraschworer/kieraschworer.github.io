@@ -11,7 +11,7 @@ html {
 header {
   background-color:#ceddf6;
   padding-bottom: 10px;
-  width: 100%;
+  width: 100vw;
   overflow: auto;
 }
 main {

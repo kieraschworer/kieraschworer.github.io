@@ -10,9 +10,10 @@ html {
 }
 header {
   background-color:#ceddf6;
-  padding-bottom: 10px;
+  padding-bottom:10px;
   margin-bottom: 10px;
-  width: 100vw;
+  width: 100%;
+  left: 0;
 }
 main {
   width: 100%;
@@ -38,6 +39,18 @@ footer {
   left: 0;
   bottom: 0;
 }
+.navigationtable {
+  list-style-type: none;
+  float: left;
+
+  color:black;
+  text-align: center;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 10px;
+  font-family: 'swansea', 'roboto', sans-serif;
+}
 /*Pseudo Class Link*/
 .navigationtable a:link,:visited{
   color:black;
@@ -53,25 +66,31 @@ footer {
   height:40px;
   width: 40px;
 }
-.heading {
-  padding-top: 10px;
-  font-family: 'swansea', 'roboto', sans-serif; /*Swansea Custom Font*/
-}
-.navigationtable {
-  width: 10vw;
-  color:black;
-  text-align: center;
-  font-weight: bold;
-  text-decoration: none;
-  border-radius: 15px;
-  padding: 10px;
-  font-family: 'swansea', 'roboto', sans-serif;
-}
 nav a {
   padding: 5px;
 }
 nav {
-  padding-top: 15px;
+  padding-top: 5px;
+  padding-bottom: 45px;
+}
+@media screen and (min-width: 501px) {
+  #dropdown{ display: none;}
+}
+
+@media screen and (max-width: 500px) {
+
+#dropdown {
+  float: right;
+  margin: 15px;
+  width: 30px;
+}
+.navigationtable {
+  display: none;
+  position: absolute;
+}
+#dropdown:hover .navigationtable {
+  display: block;
+}
 }
 
 

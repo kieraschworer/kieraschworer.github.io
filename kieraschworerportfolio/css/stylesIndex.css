@@ -10,6 +10,9 @@
   text-align: center;
   width: 65vw;
 }
+#indextext {
+text-align: center;
+}
 #contactbanner {
   text-align: center;
   font-family: 'swansea', georgia, sans-serif;

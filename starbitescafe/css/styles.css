@@ -28,6 +28,11 @@ nav li {
   list-style-type: none;
   font-size:2em;
 }
+hr {
+  height: 10px;
+  background-color:#6f4e37;
+  border: none;
+}
 footer {
   background-color:#6f4e37;
   padding-top: 10px;

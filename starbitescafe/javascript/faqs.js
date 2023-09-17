@@ -13,6 +13,7 @@ const toggle = evt => {
   else {
     divElement.className= "open"; //find .open class in css - .open class hides div
   }
+  evt.preventDefault();
 }
 
 document.addEventListener("DOMContentLoaded", () => {

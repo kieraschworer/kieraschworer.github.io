@@ -1,0 +1,33 @@
+/*09/16/23*/
+
+#faqsbanner {
+  margin: auto;
+  display: block;
+  text-align:right;
+  width: 50vw;
+}
+h2 {
+  cursor: pointer;
+  text-align: center;
+}
+a {
+  color: lightsalmon;
+  text-decoration: none; 
+}
+a:link {
+color: lightsalmon;
+}
+a:hover { 
+color:white; 
+}
+div {
+  display: none;
+}
+div.open {
+  display: block;
+}
+p {
+  color:lightsalmon;
+  text-align: center;
+  font-size:1.4em;
+}

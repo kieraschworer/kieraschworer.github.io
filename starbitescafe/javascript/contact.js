@@ -98,5 +98,6 @@ document.addEventListener("DOMContentLoaded", () => {
     //when form is cleared, it will focus on the first input field
     $("#firstemail").focus();
   })
-  $("#firstemail").focus(); 
+  
+  $("#persontocontact").focus(); 
 })

@@ -1,0 +1,55 @@
+#menubanner {
+  margin: auto;
+  display: block;
+  text-align:right;
+  width: 90vw;
+}
+h2 {
+  color:lightsalmon;
+}
+#slides img {
+	display: none;
+}
+#slide {
+  padding-top: 30px;
+  margin: auto;
+  display: block;
+  text-align:right;
+  width: 50vw;
+}
+.title {
+  text-align: center;
+}
+.buttonlink {
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 30px;
+  width: 40vw;
+  color:black;
+  background-color:lightsalmon;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+.button {
+  text-decoration: none;
+  background-color: lightsalmon;
+  border: none;
+  cursor:pointer;
+}
+#foodbanner {
+  padding-top: 50px;
+  margin: auto;
+  display: block;
+  text-align:right;
+  width: 90vw;
+}
+#drinkbanner {
+  padding-top: 50px;
+  margin: auto;
+  display: block;
+  text-align:right;
+  width: 90vw;
+}

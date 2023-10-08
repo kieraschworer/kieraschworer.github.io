@@ -4,7 +4,7 @@
   margin: auto;
   display: block;
   text-align:right;
-  width: 50vw;
+  width: 90vw; /*10/06/23, Updated FAQS banner image height and CSS width*/
 }
 h2 {
   cursor: pointer;

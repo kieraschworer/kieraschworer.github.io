@@ -46,8 +46,8 @@ footer {
 }
 
 /*Media Queries!*/
-/*09/16/23*/
-@media screen and (max-width: 632px) {
+/*10/06/23*/
+@media screen and (max-width: 789px) {
   .logo {
   height:30px;
 }
@@ -55,7 +55,7 @@ footer {
   font-size:1.5em;
 }  
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 623px) {
   .logo {
     height: 25px;
   }
@@ -63,7 +63,7 @@ footer {
     font-size: 1em;
   }
 }
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 466px) {
   .logo {
     height: 20px;
   }
@@ -71,7 +71,23 @@ footer {
     font-size: .6em;
   }
 }
-@media screen and (max-width: 280px) {
+@media screen and (max-width: 340px) {
+  .logo {
+    height: 10px;
+  }
+  .navigationtable {
+    font-size: .4em;
+  }
+}
+@media screen and (max-width: 268px) {
+  .logo {
+    height: 20px;
+  }
+  .navigationtable {
+    font-size: .6em;
+  }
+}
+@media screen and (max-width: 208px) {
   .logo {
     height: 10px;
   }

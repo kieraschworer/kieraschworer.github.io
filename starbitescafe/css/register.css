@@ -1,0 +1,99 @@
+p {
+  text-align: center;
+  font-size: 1.5em;
+  color: lightsalmon;
+}
+h1 {
+  color: black;
+  text-align: center;
+  background-color: antiquewhite;
+  padding: 10px;
+}
+#registerbanner /*10/06/23*/ {
+  margin: auto;
+  display: block;
+  text-align:right;
+  width: 90vw;
+}
+#h2signup /*10/06/23*/{
+  color: lightsalmon;
+  margin-left: 30px;
+}
+label {
+  display: inline-block;
+  width: 150px;
+  text-align: right;
+  margin-right: 10px;
+}
+input[type="text"] {
+  width: 250px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+#joinbutton, #clearbutton{
+  margin-top: 15px;
+  width: 30vw;
+  color:white;
+  background-color:lightsalmon;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+/*Gradient*/
+#joinbutton:hover, #clearbutton:hover {
+  background: radial-gradient(white,lightsalmon);
+  color:black;
+}
+#freedrinkpic /*10/06/23*/{
+  margin: auto;
+  display: block;
+  text-align:right;
+  width:50vw;
+}
+h4 {
+  width: 40vw;
+}
+.registerinfopic {
+  width: 40vw;
+  height: 40vw;
+}
+.cycle-slideshow {
+  margin: auto;
+  display: block;
+  text-align:right;
+  width: 40vw;
+}
+#adv-custom-caption {
+color: lightsalmon;
+font-size: 1.5em;
+text-align: center;
+}
+#emailform div {
+  color: lightsalmon;
+}
+#jsyk {
+  margin-top: 50px;
+  font-size: 1em;
+}
+#successimage {
+  margin: auto;
+  display: block;
+  text-align:right;
+  width: 50vw;
+}
+#backhomelink {
+  background-color: lightsalmon;
+  color:black;
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: 30vw;
+  margin-right: 30vw;
+  border-radius: 20px;
+}
+#backhomelink a{
+  color: black;
+  text-decoration: none;
+}

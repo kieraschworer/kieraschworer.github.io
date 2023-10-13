@@ -41,6 +41,7 @@ h2 {
 }
 #foodbanner {
   padding-top: 50px;
+  padding-bottom: 50px;
   margin: auto;
   display: block;
   text-align:right;
@@ -48,8 +49,74 @@ h2 {
 }
 #drinkbanner {
   padding-top: 50px;
+  padding-bottom: 50px;
   margin: auto;
   display: block;
   text-align:right;
   width: 90vw;
+}
+.projects /*10/13/23*/{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.projectbox /*10/13/23*/{
+  width:30vw;
+  height: 30vw;
+}
+h3, h4 /*10/13/23*/{
+  color:lightsalmon;
+  text-align: center;
+}
+
+/*Media Queries!!!*/
+
+@media screen and (max-width: 789px) {
+  .logo {
+  height:30px;
+}
+  .navigationtable {
+  font-size:1.5em;
+}  
+}
+@media screen and (max-width: 623px) {
+  .logo {
+    height: 25px;
+  }
+  .navigationtable {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 466px) {
+  .logo {
+    height: 20px;
+  }
+  .navigationtable {
+    font-size: .6em;
+  }
+}
+@media screen and (max-width: 340px) {
+  .logo {
+    height: 10px;
+  }
+  .navigationtable {
+    font-size: .4em;
+  }
+}
+@media screen and (max-width: 268px) {
+  .logo {
+    height: 20px;
+  }
+  .navigationtable {
+    font-size: .6em;
+  }
+}
+@media screen and (max-width: 208px) {
+  .logo {
+    height: 10px;
+  }
+  .navigationtable {
+    font-size: .4em;
+  }
 }

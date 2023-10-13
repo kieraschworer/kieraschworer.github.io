@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&display=swap'); /*Open Sans, 10/13/23*/
+
 html {
   background-color:black; /*#6f4e37;*/
 }
@@ -24,12 +26,14 @@ nav {
   padding-top: 5px;
   padding-bottom: 65px;
 }
-nav li {
+.navigationtable {
   list-style-type: none;
   font-size:2em;
+  font-family: 'Open Sans', sans-serif, 'Times New Roman';
 }
 p {
   color:lightsalmon;
+  font-family: 'Open Sans', sans-serif, 'Times New Roman';
 }
 footer {
   background-color:#6f4e37;

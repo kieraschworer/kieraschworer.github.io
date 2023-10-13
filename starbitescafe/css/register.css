@@ -30,7 +30,7 @@ input[type="text"] {
   padding: 5px;
   margin-bottom: 10px;
 }
-#joinbutton, #clearbutton{
+#joinbutton, #clearbutton {
   margin-top: 15px;
   width: 30vw;
   color:white;
@@ -96,4 +96,18 @@ text-align: center;
 #backhomelink a{
   color: black;
   text-decoration: none;
+}
+#scrollToTopBtn /*10/12/23, Scroll to Top Widget!*/ {
+  width: 30vw;
+  color:white;
+  background-color:lightsalmon;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin: auto;
+  display: block;
+  text-align:center;
+  cursor:pointer;
 }

@@ -31,4 +31,9 @@ document.addEventListener("DOMContentLoaded", () => {
     }
   })
   $("#persontocontact").focus(); 
+
+  const timeClock = $("#timeclock");
+  const currentDate = new Date();
+  const formattedDateTime = currentDate.toLocaleString();
+  timeClock.textContent = formattedDateTime;
 })

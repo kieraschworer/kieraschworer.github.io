@@ -4,47 +4,59 @@ const $ = selector => document.querySelector(selector);
 
 document.addEventListener("DOMContentLoaded", () => {
 
-$("#joinbutton").addEventListener("click", () => {
-  //get and label email and name input fields for javascript
-  const firstemail = $("#firstemail").val();
-  const secondemail = $("#secondemail").val();
-  const username = $("#username").val();
+  $("#joinbutton").addEventListener("click", () => {
+    
+    const firstemail = $("#firstemail");
+    const secondemail = $("#secondemail");
+    const username = $("#username");
 
-  const emailPattern = /^[\w\.\-]+@[\w\.\-]+\.[a-zA-Z]+$/;
-  const usernamePattern = /^[a-zA-Z]+$/;
+    // Check for errors!
+    let isValid = true;
 
-  //Check for errors!
-  let isValid = true;
+    // Regex Validation Patterns, 10/13/23
+    const emailPattern = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;
+    const usernamePattern = /^[a-zA-Z0-9_]+$/;
 
-  if (firstemail === "" || !emailPattern.test(firstemail) ) {
-    isValid = false;
-    $("#firstemail").next().text("Please enter a valid email.");
-}
+    //Entry validation
 
-  //Second email verification
-  if (secondemail === "" || !emailPattern.test(secondemail) ) {
-    isValid = false;
-    $("#secondemail").next().text("Please enter a valid email.");
-}
+    if (firstemail.value === "") {
+      firstemail.nextElementSibling.textContent = "Please enter your email!";
+      isValid = false;
+      firstemail.focus();
+    } else if (!emailPattern.test(firstemail.value)) {
+      firstemail.nextElementSibling.textContent = "Please enter a valid email address!";
+      isValid = false;
+      firstemail.focus();
+    } else {
+      firstemail.nextElementSibling.textContent = "";
+      secondemail.focus();
+    }
 
-  else if (firstemail !== secondemail) { 
-    isValid = false;
-    $("#secondemail").next().text("Please confirm email addresses match!");
-  }
+    if (secondemail.value === "") { 
+      secondemail.nextElementSibling.textContent = "This field is required...";
+      isValid = false;
+    } else if (firstemail.value !== secondemail.value) { 
+      secondemail.nextElementSibling.textContent = "Please confirm email addresses match!";
+      isValid = false;
+    } else {
+      secondemail.nextElementSibling.textContent = "";
+      username.focus();
+    }
 
-  //User's name verification
-  if (username === "" || !usernamePattern.test(username))
-  {
-    isValid = false;
-    $("#username").next().text("Please enter your name!")
-  }
+    if (username.value === "") {
+      username.nextElementSibling.textContent = "Please enter your name!";
+      isValid = false;
+    } else if (!usernamePattern.test(username.value)) {
+      username.nextElementSibling.textContent = "Please use only letters, numbers, and underscores for your username.";
+      isValid = false;
+    } else {
+      username.nextElementSibling.textContent = "";
+    }
 
-  //If isValid is true, then the email form is submitted! :D
-
-  if (isValid) {
-    $("#emailform").submit();
-  }
-
+    //If everything looks right, then submit!
+    if (isValid) {
+      $("#emailform").submit();
+    }
 });
 
 $("#clearbutton").addEventListener("click", () => {

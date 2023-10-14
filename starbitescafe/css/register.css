@@ -111,3 +111,24 @@ text-align: center;
   text-align:center;
   cursor:pointer;
 }
+
+/*Media Queries!*/
+@media screen and (max-width: 502px) {
+  #emailform {
+    text-align: center;
+  }
+  #joinbutton, #clearbutton {
+    width: 25vw;
+  } 
+}
+@media screen and (max-width: 403px) {
+  #joinbutton, #clearbutton {
+    width: 60vw;
+    margin: auto;
+    display: block;
+    text-align:center;
+  } 
+  input[type="text"] {
+    width: 80vw;
+  }
+}

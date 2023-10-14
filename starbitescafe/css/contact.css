@@ -57,8 +57,24 @@ input[type="text"] {
   background: radial-gradient(white,lightsalmon);
   color:black;
 }
+#comeinsideimage {
+  margin: auto;
+  display: block;
+  text-align:right;
+  width: 65vw;
+}
 p {
   text-align: center;
   font-size: 1.5em;
   color: lightsalmon;
+}
+
+/*Media Queries!*/
+@media screen and (max-width: 490px) {
+  textarea {
+    width: 70vw;
+  }
+  #contactform input{
+    width: 70vw;
+  }
 }

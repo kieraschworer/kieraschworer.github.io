@@ -1,0 +1,32 @@
+html {
+  background-color:black
+}
+#landingpagelink {
+  text-decoration: none;
+}
+#welcomeheading {
+  text-align: center;
+  font-size: 4em;
+}
+#landingimage {
+  margin: auto;
+  display: block;
+  text-align:right;
+  width: 80vw;
+}
+#welcomemessage {
+  text-align: center;
+}
+#welcomebutton {
+  width: 40vw;
+  color:white;
+  background-color:darkblue;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin: auto;
+  display: block;
+  text-align:center;
+}

@@ -1,0 +1,62 @@
+form {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    margin: 0 auto;
+    width: 90vw;
+    border: 3px solid blue;
+    padding: 2em 0 1em;
+}
+h1 {
+    text-align: center;
+    color: blue;
+}
+div {
+    margin-bottom: 1em;
+}
+label, span {
+    display: inline-block;
+    width: 11em;
+    text-align: right;
+}
+input {
+    margin-left: 1em;
+    margin-right: 0.5em;
+}
+span {
+    color: red;
+}
+footer {
+  /*To keep footer at bottom of page*/
+  position:fixed;
+  left: 0;
+  bottom: 0;
+}
+
+/*Error page CSS*/
+#roboticon {
+  padding-top:30px;
+  margin: auto;
+  display: block;
+  text-align:right;
+  width: 30vw;
+}
+
+.buttonlink {
+  width: 40vw;
+  background-color:darkblue;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 10px;
+  margin: auto;
+  display: block;
+  text-align:center;
+}
+.button {
+  text-decoration: none;
+  background-color:darkblue;
+  border: none;
+  cursor:pointer;
+  color:white;
+  font-weight: bold;
+  text-decoration: none;
+}

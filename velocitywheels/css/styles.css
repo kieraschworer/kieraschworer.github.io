@@ -1,0 +1,37 @@
+html {
+  background-color:aliceblue; /*#6f4e37;*/
+}
+header {
+  background-color:darkblue;
+  width: 100%;
+}
+.navigationtable a{
+  color:white;
+  text-decoration: none;
+
+  float: left; 
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+}
+nav {
+  padding-top: 5px;
+  padding-bottom: 65px;
+}
+.navigationtable {
+  list-style-type: none;
+  font-size:1.5em;
+  font-family: 'Open Sans', sans-serif, 'Times New Roman';
+}
+p {
+  color:black;
+  font-family: 'Open Sans', sans-serif, 'Times New Roman';
+}
+footer {
+  background-color:darkblue;
+  text-align: center;
+  width: 100%;
+  margin-top: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}

@@ -1,0 +1,68 @@
+nav div.container-fluid, footer.container-fluid {
+  background-color: #38250E;
+}
+
+.drinkimagebanner, .foodimagebanner, .aboutimagebanner, .contactimagebanner {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.drinkimagebanner {
+  background-image: url("../images/drinksimagebanner.jpg");
+  min-height: 200px;
+  width: 95vw;
+}
+
+.foodimagebanner {
+  background-image: url("../images/foodimagebanner.jpg");
+  min-height: 200px;
+  width: 95vw;
+}
+.aboutimagebanner {
+  background-image: url("../images/aboutimagebanner.jpg");
+  height: 200px;
+  width: 95vw;
+}
+.contactimagebanner {
+  background-image: url("../images/contactimagebanner.jpg");
+  height: 200px;
+  width: 95vw;
+}
+
+
+/*Used from W3 School's Template CSS*/
+
+/* Remove the navbar's default margin-bottom and rounded borders */ 
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+}
+
+/* Add a gray background color and some padding to the footer */
+footer {
+  background-color: #f2f2f2;
+  padding: 25px;
+}
+
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+  min-height:200px;
+}
+.carousel-inner img {
+  width: 100%; /* Set width to 100% */
+  margin: auto;
+  min-height:200px;
+}
+
+/* Hide the carousel text when the screen is less than 600 pixels wide */
+@media (max-width: 600px) {
+.carousel-caption {
+  display: none; 
+}
+}

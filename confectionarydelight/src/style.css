@@ -1,0 +1,35 @@
+@import url('https://unpkg.com/bootstrap@3.3.7/dist/css/bootstrap.min.css');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 1rem;
+  font-family: system-ui, sans-serif;
+  color: black;
+  background-color: white;
+}
+
+h1 {
+  font-weight: 800;
+  font-size: 1.5rem;
+}
+
+.text-primary {
+  color: white !important;
+  text-decoration: none !important;
+}
+.text-secondary {
+  color: black !important;
+  text-decoration: none !important;
+}
+
+.bg-primary {
+  background-color: #779eb2 !important;
+}
+.bg-secondary {
+  background-color: #B7C9E2 !important;
+  text-decoration: none !important;
+}

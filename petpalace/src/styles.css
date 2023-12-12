@@ -1,0 +1,16 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+.bg-primary {
+  background-color: #CF9FFF !important;
+}
+.bg-secondary {
+  background-color: #FFA07A !important;
+}
+a {
+  text-decoration: none !important;
+}
+/*
+Copyright Google LLC. All Rights Reserved.
+Use of this source code is governed by an MIT-style license that
+can be found in the LICENSE file at http://angular.io/license
+*/

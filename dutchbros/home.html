@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Dutch Bros</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />    
+        <!-- Latest compiled and minified CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+        <!-- Latest compiled JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <header>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-sm bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">Dutch Bros</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Locations</a>
+            </li>  
+            <li class="nav-item dropdown">
+
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Link</a></li>
+                <li><a class="dropdown-item" href="#">Another link</a></li>
+                <li><a class="dropdown-item" href="#">A third link</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+  </nav>
+</header>
+<main>
+<!-- Carousel -->
+  <div>
+    <div id="demo" class="carousel slide" data-bs-ride="carousel">
+    <!-- Indicators/dots -->
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="3"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="4"></button>
+      <button type="button" data-bs-target="#demo" data-bs-slide-to="5"></button>
+    </div>   
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://i.postimg.cc/rm0FLxbX/carouselimage4.png" alt="Dutch Bros" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="https://i.postimg.cc/nc8MpSpd/carouselimage1.jpg" alt="Dutch Bros" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="https://i.postimg.cc/dVw1T77r/carouselimage2.jpg" alt="Dutch Bros" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="https://i.postimg.cc/FFk7tX5d/carouselimage3.jpg" alt="Dutch Bros" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="https://i.postimg.cc/SNWRsLKm/carouselimage5.jpg" alt="Dutch Bros" class="d-block" style="width:100%">
+      </div>
+      <div class="carousel-item">
+        <img src="https://i.postimg.cc/cJJLXVBJ/carouselimage6.jpg" alt="New York" class="d-block" style="width:100%">
+      </div>
+    </div>    
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+  <!--Jumbotron-->
+  <div class="mt-4 p-5 bg-secondary text-white rounded">
+    <h1 class="text-center">Welcome to Dutch Bros!</h1>
+  </div><br>
+  <!--Landing Page Images and Content-->
+  <img src="https://i.postimg.cc/Kj00mhLW/dutchbroshomeimage.jpg" class="d-block" style="width:100%"/><br/>
+  <h4 class=text-center>At Dutch Bros, we believe in more than just coffee – we believe in crafting experiences that ignite your passion for life. Our commitment to quality, community, and unbeatable coffee makes us more than just a coffee shop; we're a family.</h4><br>
+  <img src="https://i.postimg.cc/2SG5dzvJ/image2.jpg" class="d-block" style="width:100%"/><br/>
+  <!--Contact Form-->
+  <div>
+    <h5 class="text-center">Questions or comments? Let us know below!</h5><br>
+      <!--Form-->
+      <form action="mailto:k.e.schworer@gmail.com?subject=Kiera%20Schworer%20Portfolio%20Mail" enctype="text/plain" method="POST" class="needs-validation" novalidate>
+        <div class="form-group">
+          <label for="uname">Your Name:</label>
+          <input type="text" class="form-control" id="uname" placeholder="Enter your name" name="yourname" required>
+          <div class="valid-feedback">Valid.</div>
+          <div class="invalid-feedback">Please enter your name.</div>
+        </div>
+        <div class="form-group">
+          <label for="email">Email Address: </label>
+          <input type="email" class="form-control" id="email" placeholder="e.x. john.smith@mail.com" pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}" name="youremail" required>
+          <div class="valid-feedback">Valid.</div>
+          <div class="invalid-feedback">Please enter a valid email address.</div>   
+        </div>
+        <div class="form-group">
+          <label for="comment">Comments:</label>
+          <textarea class="form-control" rows="5" id="comment" name="comment" required></textarea>
+          <div class="valid-feedback">Valid.</div>
+          <div class="invalid-feedback">Please enter a comment of some sort.</div>
+        </div>       
+        <button type="submit" class="btn btn-primary">Submit</button>
+        </form><br>
+      </div>
+  </div>
+  <footer>
+    <div class="p-5 bg-primary text-white rounded"><a href="https://www.dutchbros.com/"><img src="https://i.postimg.cc/Fsrj438q/coffeeimagelogo.png" class="img-fluid mx-auto d-block"/></a></div>
+  </footer>
+  </main>
+  </body>
+</html>

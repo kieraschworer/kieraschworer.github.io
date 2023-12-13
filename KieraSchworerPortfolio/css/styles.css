@@ -1,0 +1,13 @@
+.bg-primary {
+  background-color:#637BAD !important;
+}
+.bg-secondary {
+  background-color: #d3d3d3 !important;
+}
+.bg-third {
+  /* background-color: #feffba; */
+  background-color: #38250E;
+}
+#logo-image {
+  width: 30px;
+}
